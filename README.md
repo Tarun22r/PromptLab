@@ -145,9 +145,6 @@ See `backend/.env.example`:
 
 If `LLM_API_KEY` is unset, `Settings.demo_mode` is `True` and every request routes to `DemoLLMProvider`, which generates deterministic, keyword-derived mock text (or JSON/Markdown, depending on the requested output format). The UI shows a persistent banner and labels every mock response with a "Demo response" badge — it is never presented as a real model output. This lets anyone run the full project without provisioning credentials.
 
-## Screenshots
-
-_Add screenshots of the Playground, comparison view, and evaluation panel here once the app is running locally._
 
 ## Future improvements
 
